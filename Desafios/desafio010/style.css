@@ -69,6 +69,7 @@ nav {
     width: auto;
     height: auto;
     padding: 10px;
+    min-width: none;
 }
 
 nav > a {
