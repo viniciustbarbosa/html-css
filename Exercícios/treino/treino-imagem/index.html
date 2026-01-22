@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino Imagem</title>
+</head>
+<body>
+    <h1>Minha imagem</h1>
+    <p>Este é um exercício para exibir minha imagens em tamanhos proporcionais ao tamanho da tela.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-celular.jpeg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-tablet.jpeg" type="image/jpeg">
+        <img src="imagens/foto-pc.jpeg" alt="minha foto">
+    </picture>
+</body>
+</html>

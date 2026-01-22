@@ -1,0 +1,21 @@
+ @charset "UTF-8";
+ 
+ p {
+            text-align: justify;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+            background-color: rgba(244, 249, 253, 0.945);
+        }
+        h1 {
+            font-size: 35px;
+            font-family: Arial Black;
+            color: rgb(244, 244, 248);
+            background-color: rgba(8, 8, 221, 0.705);
+        }
+        h2 {
+            font-size: 28px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(252, 136, 3);
+        }

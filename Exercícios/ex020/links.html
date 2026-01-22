@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalizados</title>
+    <style>
+        a{
+            color: #1e1e77;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            content: " (já visitado)";
+        }
+
+        a:active {
+            color: #27cfc7;
+        }
+
+        a::after {
+            content: " - link";
+        }
+
+        a::before {
+            content: ">>>  ";
+        }
+    </style>
+</head>
+<body>
+    <h1>Visite meus links:</h1>
+    <ul>
+        <li><a href="https://concurso.idecan.org.br/CandidatoConcursos.aspx" target="_blank" rel="external">Site IDECAN</a></li>
+        <li><a href="https://www.iades.com.br/inscricao/upload/149/20160310182614139.pdf" target="_blank" rel="external">Edital PCDF</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" rel="external">Curso de HTML/CSS</a></li>
+    </ul>
+</body>
+</html>

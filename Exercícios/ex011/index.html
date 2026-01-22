@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png"> 
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem teste">
+    </picture>
+    <h1>Reprodução de Áudio</h1>
+    <audio preload="metadata" autoplay controls>
+        <source src="audio/01.Rezamor.mp3" type="audio/mpeg">
+        <source src="audio/01.Rezamor.ogg" type="audio/ogg">
+        <source src="audio/01.Rezamor.wav" type="audio/wav">
+        <p>Seu navegador não suporta o áudio. Baixe-o clicando <a href="audio/01.Rezamor.mp3">aqui</a></p>
+    </audio>
+    <p>Caso queira baixar o audio, é só clicar <a href="audio/01.Rezamor.zip">aqui</a></p>
+    <p>Caso queira apenas abri-lo clique <a href="audio/01.Rezamor.mp3">aqui</a></p>
+</body>
+</html>
